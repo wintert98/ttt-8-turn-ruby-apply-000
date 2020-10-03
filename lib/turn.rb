@@ -40,7 +40,7 @@ def turn(board)
    else 
      puts "ask for input again until you get a valid input"
      input = gets.strip
-     
+     valid_move?(board, index)
    end
   
 end
