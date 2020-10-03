@@ -37,6 +37,7 @@ def turn(board)
   
    if valid_move?(board, index)
      move(board, index, value)
+     turn(board)
     
    else 
      puts "ask for input again until you get a valid input"
