@@ -36,6 +36,7 @@ def turn(board)
   index = input_to_index(input)
   
    if valid_move?(board, index)
+     
     
    else 
      puts "ask for input again until you get a valid input"
